@@ -1,0 +1,101 @@
+/* .animation_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.keyframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    animation: cub 1s infinite;
+    background-color: blue;
+}
+
+
+
+@keyframes cub {
+    25% {
+        background-color: rgb(238, 6, 6);
+        border-radius: 40px;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    75% {
+        background-color: rgb(237, 8, 8);
+        border-radius: 40px;
+    }
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+} */
+body{
+    background-color: rgba(0, 255, 255, 0.425);
+}
+.car {
+    position: absolute;
+    left: 35rem;
+}
+
+.round1 img {
+    width: 126px;
+    position: absolute;
+    top: 130px;
+    left: 672px;
+    animation: round1 0.2s infinite;
+}
+
+@keyframes round1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.round2 img {
+    position: relative;
+    width: 126px;
+    top: 120px;
+    left: 1180px;
+    animation: round2 0.2s infinite ;
+}
+
+@keyframes round2 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+    
+}
+
+.tree {
+    position: relative;
+    width: 1800px;
+}
+
+.tree marquee img {
+    top: 50px;
+    left: 55px;
+    z-index: 255;
+    width: 400px;
+}
